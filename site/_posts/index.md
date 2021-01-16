@@ -1,0 +1,4 @@
+---
+categoryIndex: posts
+---
+<post-list />

@@ -1,0 +1,24 @@
+// colors
+$accentColor: #3eaf7c !default;
+$textColor: #2c3e50 !default;
+$borderColor: #eaecef !default;
+$codeBgColor: #282c34 !default;
+$arrowBgColor: #ccc !default;
+$badgeTipColor: #42b983 !default;
+$badgeWarningColor: darken(#ffe564, 35%) !default;
+$badgeErrorColor: #DA5961 !default;
+
+// layout
+$navbarHeight: 3.6rem !default;
+$sidebarWidth: 20rem !default;
+$contentWidth: 740px !default;
+$homePageWidth: 960px !default;
+
+// responsive breakpoints
+$MQNarrow: 959px !default;
+$MQMobile: 719px !default;
+$MQMobileNarrow: 419px !default;
+
+// code
+$lineNumbersWrapperWidth: 3.5rem !default;
+$codeLang: js, ts, html, md, vue, css, sass, scss, less, stylus, go, java, c, sh, yaml, py, docker, dockerfile, makefile;
