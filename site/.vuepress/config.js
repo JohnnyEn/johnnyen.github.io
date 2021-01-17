@@ -17,6 +17,8 @@ module.exports = {
         text: 'Povídky',
         link: '/_short-stories/'
       }
-    ]
-  }
+    ],
+  },
+
+  title: 'CBRPNK.dev'
 }

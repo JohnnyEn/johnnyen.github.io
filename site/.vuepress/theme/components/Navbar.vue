@@ -32,7 +32,9 @@
         v-if="isAlgoliaSearch"
         :options="algolia"
       />
-      <SearchBox v-else-if="$site.themeConfig.search !== false && $page.frontmatter.search !== false" />
+      <SearchBox
+        v-else-if="$site.themeConfig.search !== false && $page.frontmatter.search !== false"
+      />
       <NavLinks class="can-hide" />
     </div>
   </header>
@@ -118,16 +120,16 @@ $navbar-horizontal-padding: 1.5rem;
   }
 
   .site-name {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 600;
-    color: $textColor;
+    color: $accentColor;
     position: relative;
   }
 
   .links {
     padding-left: 1.5rem;
     box-sizing: border-box;
-    background-color: white;
+    background-color: $backgroundColor;
     white-space: nowrap;
     font-size: 0.9rem;
     position: absolute;
@@ -138,6 +140,17 @@ $navbar-horizontal-padding: 1.5rem;
     .search-box {
       flex: 0 0 auto;
       vertical-align: top;
+      background-color: $backgroundColor;
+
+      .suggestions {
+        background-color: $backgroundColor;
+      }
+
+      .suggestion {
+        &.focused {
+          background-color: $codeBgColor;
+        }
+      }
     }
   }
 }

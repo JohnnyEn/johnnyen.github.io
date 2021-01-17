@@ -84,15 +84,17 @@ export default {
   }
 
   .algolia-autocomplete {
-    line-height: normal;.ds-dropdown-menu {
-      background-color: #fff;
-      border: 1px solid #999;
+    line-height: normal;
+
+    .ds-dropdown-menu {
+      background-color: $backgroundColor;
+      border: 1px solid $borderColor;
       border-radius: 4px;
       font-size: 16px;
       margin: 6px 0 0;
       padding: 4px;
       text-align: left;&:before {
-        border-color: #999;
+        border-color: $borderColor;
       }
 
       [class*=ds-dataset-] {
@@ -101,6 +103,7 @@ export default {
       }
 
       .ds-suggestions {
+        background-color: $backgroundColor;
         margin-top: 0;
       }
 
@@ -110,7 +113,7 @@ export default {
     }
 
     .algolia-docsearch-suggestion--highlight {
-      color: #2c815b;
+      color: $accentColor;
     }
 
     .algolia-docsearch-suggestion {
@@ -143,7 +146,9 @@ export default {
         vertical-align: top;
         padding: 5px 7px 5px 5px;
         border-color: $borderColor;
-        background: #f1f3f5;&:after {
+        background: $backgroundColor;
+
+        &:after {
           display: none;
         }
       }
@@ -158,7 +163,7 @@ export default {
     }
 
     .ds-cursor .algolia-docsearch-suggestion--content {
-      background-color: #e7edf3 !important;
+      background-color: $backgroundColor !important;
       color: $textColor;
     }
   }

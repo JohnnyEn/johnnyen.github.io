@@ -13,6 +13,7 @@
       <h1
         v-if="data.heroText !== null"
         id="main-title"
+        class="hero-title"
       >
         {{ data.heroText || $title || 'Hello' }}
       </h1>

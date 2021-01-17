@@ -1,6 +1,7 @@
 @import './variables';
 
 @import './config';
+@import './fonts';
 @import './code';
 @import './custom-blocks';
 @import './arrow';
@@ -10,11 +11,11 @@
 html, body {
   padding: 0;
   margin: 0;
-  background-color: #fff;
+  background-color: $backgroundColor;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "RobotoRegular", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
@@ -32,7 +33,7 @@ body {
   left: 0;
   right: 0;
   height: $navbarHeight;
-  background-color: #fff;
+  background-color: $backgroundColor;
   box-sizing: border-box;
   border-bottom: 1px solid $borderColor;
 }
@@ -131,7 +132,7 @@ strong {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
+  font-family: "RobotoBold";
   line-height: 1.25;
 
   #{$contentClass}:not(.custom) > & {

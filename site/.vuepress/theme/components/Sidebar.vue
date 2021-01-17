@@ -29,6 +29,8 @@ export default {
 @import "../styles/variables";
 
 .sidebar {
+  background-color: $backgroundColor;
+
   ul {
     padding: 0;
     margin: 0;
