@@ -14,12 +14,15 @@
         :src="$withBase($site.themeConfig.logo)"
         :alt="$siteTitle"
       >
+
       <span
         v-if="$siteTitle"
         ref="siteName"
         class="site-name"
-        :class="{ 'can-hide': $site.themeConfig.logo }"
-      >{{ $siteTitle }}</span>
+        :class="{ 'can-hide': $site.themeConfig.hideLogo }"
+      >
+        {{ $siteTitle }}
+      </span>
     </RouterLink>
 
     <div
@@ -112,6 +115,12 @@ $navbar-horizontal-padding: 1.5rem;
     display: inline-block;
   }
 
+  .home-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .logo {
     height: $navbarHeight - 1.4rem;
     min-width: $navbarHeight - 1.4rem;
@@ -122,7 +131,11 @@ $navbar-horizontal-padding: 1.5rem;
   .site-name {
     font-size: 1.6rem;
     font-weight: 600;
+    margin-top: 2px;
     color: $accentColor;
+    background: -webkit-linear-gradient($logoGradientTop, $logoGradientBottom);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     position: relative;
   }
 

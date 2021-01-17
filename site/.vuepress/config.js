@@ -16,8 +16,14 @@ module.exports = {
       {
         text: 'Povídky',
         link: '/_short-stories/'
+      },
+      {
+        text: 'Reference',
+        link: '/cv/'
       }
     ],
+    logo: 'https://drive.google.com/uc?export=download&id=14233pEDiD2ovAv6ir_QS_vfoV21SxbGv',
+    hideLogo: false,
   },
 
   title: 'CBRPNK.dev'
