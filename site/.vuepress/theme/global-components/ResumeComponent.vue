@@ -8,6 +8,13 @@
 </template>
 
 <script>
+import {
+  Progress,
+  ProgressLabel
+  CircularProgress,
+  CircularProgressLabel,
+} from "@chakra-ui/progress"
+
 export default {
   name: 'ResumeComponent',
 
