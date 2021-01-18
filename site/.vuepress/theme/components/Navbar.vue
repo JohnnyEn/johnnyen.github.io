@@ -118,7 +118,7 @@ $navbar-horizontal-padding: 1.5rem;
   .home-link {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .logo {
@@ -180,11 +180,12 @@ $navbar-horizontal-padding: 1.5rem;
       padding-left: 1.5rem;
     }
 
+    .home-link {
+      justify-content: flex-start;
+    }
+
     .site-name {
-      width: calc(100vw - 9.4rem);
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis;
+      display: none;
     }
   }
 }

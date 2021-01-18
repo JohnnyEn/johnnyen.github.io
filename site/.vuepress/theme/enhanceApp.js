@@ -9,6 +9,6 @@ export default ({
   siteData // site metadata
 }) => {
   for (const [name, component] of Object.entries(pageComponents)) {
-    Vue.component(name, component)
+    Vue.component(name, component);
   }
 }
