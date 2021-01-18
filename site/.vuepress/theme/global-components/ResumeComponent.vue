@@ -5,6 +5,8 @@
       <h2>Frontend developer</h2>
 
       <div class="col-md-8">
+        <h3 class="resume-headline"># Pracovní zkušenosti</h3>
+
         <template
           v-for="jobs in resumeData.resumeJobs"
         >
@@ -18,10 +20,10 @@
             class="resume-list-item"
           >
             <h4 class="resume-headline">{{ job.jobHeadline }}</h4>
-            <h5 class="resume-info">
+            <h4 class="resume-info">
               <span class="resume-info-company">{{ job.companyName }}</span>
               <span>{{ job.employmentPeriod }}</span>
-            </h5>
+            </h4>
             <p>{{ job.jobDescription }}</p>
           </li>
         </ul>
@@ -37,12 +39,13 @@
             <p>{{ educationItem.educationInstitution }}</p>
           </li>
         </ul>
+
+        <h3 class="resume-headline">O mně</h3>
+        <!-- TODO: write there some greatness!! -->
+        <p>Kromě psaní kódu a vývoje webových aplikací se nejlépe cítím se svou rodinou na Praze 6. Mám rád teplé letní dny, pálivé jídlo a dobré pivo. Ve volném čase se věnuji psaní sci-fi příběhů a digitalizaci tabletop RPG her. V minulosti jsem se intenzivně věnoval streamování audiovizuálního obsahu a obecně multimédiím na internetu. Jsem DJ na volné noze hrající více hudebních stylů. Nemám rád sociální sítě, nekvalitní zvuk a naskakují mi pupínky ze špatného, odfláknutého kódu.</p>
       </div>
 
       <div class="col-md-4">
-        <h3 class="resume-headline"># O mně</h3>
-        <p>Webovému Frontendu se věnuji několik let, mám zkušenosti s agilním vývojem v metodice SCRUM a rád zkouším nové webové technologie. Sledování novinek na poli frontendu mi dělá radost stejně, jako elektronická hudba a kočky všeho druhu</p>
-
         <h3 class="resume-headline"># Dovednosti</h3>
         <div class="row">
           <div
