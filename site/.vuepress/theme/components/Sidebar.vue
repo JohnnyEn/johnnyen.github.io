@@ -20,7 +20,6 @@ export default {
   name: 'Sidebar',
 
   components: { SidebarLinks, NavLinks },
-
   props: ['items']
 }
 </script>

@@ -12,7 +12,9 @@
     .token {
       &.deleted {
         color: #EC5975;
-      }&.inserted {
+      }
+
+      &.inserted {
         color: $accentColor;
       }
     }

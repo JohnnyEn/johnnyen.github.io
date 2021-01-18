@@ -18,8 +18,8 @@ module.exports = {
         link: '/_short-stories/'
       },
       {
-        text: 'Reference',
-        link: '/cv/'
+        text: 'O mně',
+        link: '/resume/'
       }
     ],
     logo: 'https://drive.google.com/uc?export=download&id=14233pEDiD2ovAv6ir_QS_vfoV21SxbGv',

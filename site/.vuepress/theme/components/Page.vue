@@ -2,7 +2,10 @@
   <main class="page">
     <slot name="top" />
 
-    <Content class="theme-default-content" />
+    <Content
+      class="theme-default-content"
+      :class="classObject"
+    />
     <PageEdit />
 
     <PageNav v-bind="{ sidebarItems }" />
@@ -16,8 +19,28 @@ import PageEdit from '@theme/components/PageEdit.vue'
 import PageNav from '@theme/components/PageNav.vue'
 
 export default {
+  name: 'Page',
   components: { PageEdit, PageNav },
-  props: ['sidebarItems']
+
+  props: {
+    sidebarItems: {
+      type: Array,
+      required: false
+    },
+    pageType: {
+      type: String,
+      required: true,
+      default: ''
+    }
+  },
+
+  computed: {
+    classObject() {
+      return {
+        'custom': this.pageType === 'custom'
+      }
+    }
+  }
 }
 </script>
 

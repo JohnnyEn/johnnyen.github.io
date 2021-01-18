@@ -1,12 +1,14 @@
-@import './variables';
+@import "./variables";
 
-@import './config';
-@import './fonts';
-@import './code';
-@import './custom-blocks';
-@import './arrow';
-@import './wrapper';
-@import './toc';
+@import "./config";
+@import "./fonts";
+@import "./code";
+@import "./custom-blocks";
+@import "./arrow";
+@import "./wrapper";
+@import "./toc";
+
+@import "node_modules/bootstrap-4-grid/scss/grid";
 
 html, body {
   padding: 0;
@@ -241,4 +243,4 @@ td {
   }
 }
 
-@import 'mobile.scss';
+@import "mobile.scss";
