@@ -1,0 +1,137 @@
+{
+  "resumeJobs": [
+    {
+      "jobHeadline": "Vue.js Senior Frontend Developer",
+      "companyName": "@ jPower8",
+      "employmentPeriod": "2020 - současnost",
+      "jobDescription": "Programování informační firemní PWA aplikace pro jednu z největších českých finančních institucí. Kódování Vue.js komponent dle připravených podkladů, návrh aplikační logiky a refaktoring starých částí aplikace."
+    },
+    {
+      "jobHeadline": "Vue.js Frontend Developer",
+      "companyName": "@ Košík.cz",
+      "employmentPeriod": "2019",
+      "jobDescription": "Refaktoring nepříliš povedených částí frontend části eshopu do nové podoby. Příprava modulů Vuex Store, práce s Google maps API. Spolupráce s MKT oddělením na nových částech aplikace."
+    },
+    {
+      "jobHeadline": "Fullstack Frontend Developer",
+      "companyName": "@ Ušetřeno s.r.o.",
+      "employmentPeriod": "2019",
+      "jobDescription": "Programování nových částí webu Ušetřeno.cz. Příprava parametrizace kalkulaček energií, komunikačních služeb a finančích produktů v MySQL. Lehké programování backendových služeb REST API ve frameworku Symfony."
+    },
+    {
+      "jobHeadline": "Frontend Coder",
+      "companyName": "@ Softec s.r.o",
+      "employmentPeriod": "2018",
+      "jobDescription": "Kódování šabon pro zaměstnaneckou nástavbu CRM systému Siebel s optimalizací pro IE 11. Konzultace grafických návrhů s designerem."
+    },
+    {
+      "jobHeadline": "Frontend Developer",
+      "companyName": "@ Shoptet a.s.",
+      "employmentPeriod": "2018",
+      "jobDescription": "Kódování javascript logiky a HTML/CSS šablon pro systém eshopů Shoptet."
+    },
+    {
+      "jobHeadline": "Frontend Developer",
+      "companyName": "@ Mall a.s.",
+      "employmentPeriod": "2016 - 2018",
+      "jobDescription": "Člen webového týmu Mall.cz, vývoj interních aplikací a webového frontendu využívající moderní frameworky (Vue.js a Angular), agilní metodika SCRUM, continuous integration (Gitlab, Bamboo), automatizace procesů, tvorba workshopů."
+    },
+    {
+      "jobHeadline": "Frontend Coder, Frontend Developer",
+      "companyName": "@ Media Factory a.s.",
+      "employmentPeriod": "2015 - 2016",
+      "jobDescription": "Správa a údržba klientských webových stránek, tvorba nových webových prezentací (PHP, Less, Javascript / jQuery), spolupráce na webových reklamních kampaních. Reference: Vodafone.cz, DVBT2Overeno.cz, Česká pojišťovna, VW group."
+    },
+    {
+      "jobHeadline": "Koordinátor projektů / E-Shop specialista",
+      "companyName": "@ Alza a.s.",
+      "employmentPeriod": "2011 - 2015",
+      "jobDescription": "Správa webového obsahu, koordinace týmu externistů, úprava textových i grafických prezentačních materiálů, startup a vedení týmu spravující rich content obsah, digitalizace audiovizuálního obsahu"
+    }
+  ],
+  "resumeEducation": [
+    {
+      "educationInstitution": "SOUO, Belgická 29, Praha 2",
+      "educationDescription": "Provoz obchodu, zakončeno maturitní zkouškou"
+    },
+    {
+      "educationInstitution": "SOUO, Belgická 29, Praha 2",
+      "educationDescription": "Prodavač elektrotechnického spotřebního zboží, zakončeno výučním listem"
+    }
+  ],
+  "resumeAboutMe": {
+    "headline": "O mně",
+    "text": "Webovému Frontendu se věnuji několik let, mám zkušenosti s agilním vývojem v metodice SCRUM a rád zkouším nové webové technologie. Sledování novinek na poli frontendu mi dělá radost stejně, jako elektronická hudba a kočky všeho druhu"
+  },
+  "resumeSkillsOverview": [
+    {
+      "name": "Web Frontend",
+      "percentage": "90",
+      "type": "circle"
+    },
+    {
+      "name": "Web Backend",
+      "percentage": "45",
+      "type": "circle"
+    }
+  ],
+  "resumeSkills": [
+    {
+      "name": "HTML 5",
+      "percentage": 90,
+      "type": "line"
+    },
+    {
+      "name": "CSS 3 / SCSS",
+      "percentage": 80,
+      "type": "line"
+    },
+    {
+      "name": "JavaScript ES6",
+      "percentage": 85,
+      "type": "line"
+    },
+    {
+      "name": "Vue.js",
+      "percentage": 90,
+      "type": "line"
+    },
+    {
+      "name": "PHP",
+      "percentage": 35,
+      "type": "line"
+    },
+    {
+      "name": "MYSQL",
+      "percentage": 40,
+      "type": "line"
+    },
+    {
+      "name": "MongoDB",
+      "percentage": 40,
+      "type": "line"
+    }
+  ],
+  "resumeOtherSkills": [
+    {
+      "name": "Linux server",
+      "percentage": 60,
+      "type": "line"
+    },
+    {
+      "name": "Webpack",
+      "percentage": 60,
+      "type": "line"
+    },
+    {
+      "name": "Atlassian Suite",
+      "percentage": 50,
+      "type": "line"
+    },
+    {
+      "name": "Adobe Photoshop",
+      "percentage": 40,
+      "type": "line"
+    }
+  ]
+}
