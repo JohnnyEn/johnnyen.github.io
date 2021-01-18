@@ -42,7 +42,9 @@
 
         <h3 class="resume-headline">O mně</h3>
         <!-- TODO: write there some greatness!! -->
-        <p>Kromě psaní kódu a vývoje webových aplikací se nejlépe cítím se svou rodinou na Praze 6. Mám rád teplé letní dny, pálivé jídlo a dobré pivo. Ve volném čase se věnuji psaní sci-fi příběhů a digitalizaci tabletop RPG her. V minulosti jsem se intenzivně věnoval streamování audiovizuálního obsahu a obecně multimédiím na internetu. Jsem DJ na volné noze hrající více hudebních stylů. Nemám rád sociální sítě, nekvalitní zvuk a naskakují mi pupínky ze špatného, odfláknutého kódu.</p>
+        <p>Kromě psaní kódu a vývoje webových aplikací se nejlépe cítím se svojí rodinou na Praze 6. Mám rád teplé letní dny, pálivé jídlo a dobré pivo. Ve volném čase se věnuji psaní sci-fi příběhů a digitalizaci tabletop RPG her. Baví mě kvalitní literatura nebo filmy. Samozřejmě někdy mám i záchvaty, kdy si s radostí pustím i špatný film a zpětně doceňuji jeho genialitu.</p>
+        <p>V minulosti jsem se intenzivně věnoval streamování audiovizuálního obsahu a obecně multimédiím na internetu. Jsem DJ na volné noze hrající více hudebních stylů.</p>
+        <p>Nemám rád sociální sítě, nekvalitní zvuk a naskakují mi pupínky ze špatného, odfláknutého kódu.</p>
       </div>
 
       <div class="col-md-4">
