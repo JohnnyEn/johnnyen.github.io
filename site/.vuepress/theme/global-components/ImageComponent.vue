@@ -7,6 +7,7 @@
         :backgroundImage="backgroundImageUrl"
         :foregroundImage="imageUrl"
         :imageHeight="imageHeight"
+        :imagePosition="imagePosition"
       />
     </template>
 
@@ -54,8 +55,12 @@ export default {
     imageHeight: {
       type: String,
       required: true
+    },
+    imagePosition: {
+      type: String,
+      required: false
     }
-  }
+  },
 }
 </script>
 

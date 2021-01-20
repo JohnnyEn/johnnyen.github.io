@@ -88,12 +88,17 @@ export default {
 @import "../styles/variables";
 
 .home {
-  padding: $navbarHeight 2rem 0;
+  height: 100vh;
   max-width: $homePageWidth;
+  padding: $navbarHeight 2rem 0;
   margin: 0px auto;
   display: block;
 
   .hero {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    height: calc(100% - #{$navbarHeight});
     text-align: center;
 
     img {
@@ -103,19 +108,20 @@ export default {
       margin: 3rem auto 1.5rem;
     }
 
-    h1 {
-      font-size: 3rem;
+    .hero-title {
+      font-size: 4rem;
     }
 
-    h1,
+    .hero-title,
     .description,
     .action {
       margin: 1.8rem auto;
+      text-shadow: 2px 2px 8px #000000;
     }
 
     .description {
       max-width: 35rem;
-      font-size: 1.6rem;
+      font-size: 2rem;
       line-height: 1.3;
       color: lighten($textColor, 40%);
     }
@@ -164,6 +170,10 @@ export default {
     p {
       color: lighten($textColor, 25%);
     }
+  }
+
+  .hero-title {
+    text-align: center;
   }
 
   .footer {

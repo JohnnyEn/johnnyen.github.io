@@ -108,7 +108,8 @@ export default {
         {
           'no-navbar': !this.shouldShowNavbar,
           'sidebar-open': this.isSidebarOpen,
-          'no-sidebar': !this.shouldShowSidebar
+          'no-sidebar': !this.shouldShowSidebar,
+          'is-homepage': this.$page.frontmatter.home
         },
         userPageClass
       ]
@@ -149,3 +150,14 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.theme-container {
+  &.is-homepage {
+    height: 100vh;
+    background-image: url('https://drive.google.com/uc?export=download&id=1z0PN4YirU7UVC3T0wceAdnFNfw6NUNZf');
+    background-size: cover;
+    background-position: center center;
+  }
+}
+</style>

@@ -13,6 +13,7 @@
       class="parallax-scrolling-image"
       data-depth="0.3"
       :src="foregroundImage"
+      :class="foregroundImageClassObject"
       :style="generateImageStyle"
       alt="foreground-image"
     />
@@ -36,6 +37,11 @@ export default {
     imageHeight: {
       type: String,
       required: true,
+    },
+    imagePosition: {
+      type: String,
+      required: false,
+      default: 'left'
     }
   },
 
@@ -49,7 +55,14 @@ export default {
       const imagePadding = imageHeight / 10;
 
       return `height: ${imageHeight + imagePadding}px;`;
-    }
+    },
+
+    foregroundImageClassObject() {
+      return {
+        'parallax-scrolling-image-center': this.imagePosition === 'center',
+        'parallax-scrolling-image-right': this.imagePosition === 'right'
+      }
+    },
   },
 
   mounted() {
@@ -87,6 +100,11 @@ export default {
     bottom: 20px;
     width: auto;
     height: 320px;
+  }
+
+  .parallax-scrolling-image-center {
+    margin: 0 auto;
+    right: 0;
   }
 }
 </style>

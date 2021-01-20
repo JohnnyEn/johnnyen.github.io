@@ -1,5 +1,12 @@
 <template>
   <div class="resume">
+    <image-component
+      imageUrl="https://drive.google.com/uc?export=download&id=1s4UFQotBl8tXuYQPbauWrIn-eR-nxyuw"
+      backgroundImageUrl="https://i.pinimg.com/originals/19/d2/94/19d294b86b157c57856ecd786461b8d2.jpg"
+      imageHeight="300"
+      imageHeadline="CV-hero-image"
+    />
+
     <div class="row">
       <h1>Jan Novák</h1>
       <h2>Frontend developer</h2>
@@ -40,10 +47,10 @@
           </li>
         </ul>
 
-        <h3 class="resume-headline">O mně</h3>
+        <h3 class="resume-headline"># O mně</h3>
         <!-- TODO: write there some greatness!! -->
-        <p>Kromě psaní kódu a vývoje webových aplikací se nejlépe cítím se svojí rodinou na Praze 6. Mám rád teplé letní dny, pálivé jídlo a dobré pivo. Ve volném čase se věnuji psaní sci-fi příběhů a digitalizaci tabletop RPG her. Baví mě kvalitní literatura nebo filmy. Samozřejmě někdy mám i záchvaty, kdy si s radostí pustím i špatný film a zpětně doceňuji jeho genialitu.</p>
-        <p>V minulosti jsem se intenzivně věnoval streamování audiovizuálního obsahu a obecně multimédiím na internetu. Jsem DJ na volné noze hrající více hudebních stylů.</p>
+        <p>Jsem rodinný typ, nejlépe se cítím se svojí rodinou na Praze 6. Mám rád teplé letní dny, pálivé jídlo a dobré pivo. Ve volném čase se věnuji psaní sci-fi příběhů a digitalizaci tabletop RPG her. Baví mě kvalitní literatura a filmy. Samozřejmě někdy mám i záchvaty, kdy si s radostí pustím i méně kvalitní; film a zpětně doceňuji jeho genialitu.</p>
+        <p>V minulosti jsem se intenzivně věnoval streamování audiovizuálního obsahu a obecně multimédiím na internetu. Rád se hrabu ve všemožných stylech elektronické hudby a tu nejlepší si přehrávám na audio kazety. Rád roztáčím vinyly a cédéčka jako DJ. Slyšet jste mě mohli ve většině známých klubů v Praze a nejen v ní.</p>
         <p>Nemám rád sociální sítě, nekvalitní zvuk a naskakují mi pupínky ze špatného, odfláknutého kódu.</p>
       </div>
 
