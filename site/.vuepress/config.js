@@ -6,16 +6,8 @@ module.exports = {
         link: '/'
       },
       {
-        text: 'Cyberpunk Blog',
+        text: 'Blog',
         link: '/_posts/'
-      },
-      {
-        text: 'Development',
-        link: '/_development/'
-      },
-      {
-        text: 'Povídky',
-        link: '/_short-stories/'
       },
       {
         text: 'O mně',

@@ -3,10 +3,12 @@
     <template
       v-for="(postListItem, index) in articlesList"
     >
-      <post-list-item
-        :key="'post-list-' + index"
-        :post-data="postListItem"
-      />
+      <div class="col-md-6">
+        <post-list-item
+          :key="'post-list-' + index"
+          :post-data="postListItem"
+        />
+      </div>
     </template>
   </div>
 </template>
