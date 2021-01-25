@@ -48,7 +48,8 @@ export default {
     },
     backgroundImageUrl: {
       type: String,
-      required: false
+      required: false,
+      default: ''
     },
     imageHeight: {
       type: String,
