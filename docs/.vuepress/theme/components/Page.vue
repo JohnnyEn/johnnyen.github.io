@@ -1,6 +1,12 @@
 <template>
   <main class="page">
     <slot name="top" />
+      <client-only>
+        <image-component
+          :imageUrl="$frontmatter.image"
+          imageHeight="300"
+        />
+      </client-only>
 
     <Content
       class="theme-default-content"
@@ -15,12 +21,17 @@
 </template>
 
 <script>
+import imageComponent from '../global-components/ImageComponent';
 import PageEdit from '@theme/components/PageEdit.vue'
 import PageNav from '@theme/components/PageNav.vue'
 
 export default {
   name: 'Page',
-  components: { PageEdit, PageNav },
+  components: {
+    PageEdit,
+    PageNav,
+    imageComponent
+  },
 
   props: {
     sidebarItems: {
@@ -46,9 +57,11 @@ export default {
 
 <style lang="scss">
 @import '../styles/wrapper.scss';
+@import '../styles/variables.scss';
 
 .page {
-  padding-bottom: 2rem;
   display: block;
+  margin-top: $navbarHeight;
+  padding-bottom: 2rem;
 }
 </style>
