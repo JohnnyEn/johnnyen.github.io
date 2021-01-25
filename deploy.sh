@@ -3,6 +3,9 @@
 # abort on errors
 set -e
 
+# installs a project
+npm install
+
 # build
 npm run docs:build
 
