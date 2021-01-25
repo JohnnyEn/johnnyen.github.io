@@ -59,12 +59,15 @@
             class="col-sm-6"
           >
             <h4>{{ overviewSkills.name }}</h4>
-            <Progress
-              class="vue-resume-circle-progress-bar"
-              :percentage="overviewSkills.percentage"
-              :type="overviewSkills.type"
-              stroke-color="#00f700"
-            />
+            <ClientOnly>
+              <progress-component
+                class="vue-resume-circle-progress-bar"
+                :is="progressComponent"
+                :percentage="overviewSkills.percentage"
+                :type="overviewSkills.type"
+                stroke-color="#00f700"
+              />
+            </ClientOnly>
           </div>
         </div>
 
@@ -77,11 +80,14 @@
             :key="'resume-skills-' + index"
           >
             <h4>{{ skill.name }}</h4>
-            <Progress
-              :percentage="skill.percentage"
-              :type="skill.type"
-              stroke-color="#00f700"
-            />
+            <ClientOnly>
+              <progress-component
+                :is="progressComponent"
+                :percentage="skill.percentage"
+                :type="skill.type"
+                stroke-color="#00f700"
+              />
+            </ClientOnly>
           </div>
         </template>
 
@@ -94,11 +100,14 @@
             :key="'resume-other-skills-' + index"
           >
             <h4>{{ otherSkill.name }}</h4>
-            <Progress
-              :percentage="otherSkill.percentage"
-              :type="otherSkill.type"
-              stroke-color="#00f700"
-            />
+            <ClientOnly>
+              <progress-component
+                :is="progressComponent"
+                :percentage="otherSkill.percentage"
+                :type="otherSkill.type"
+                stroke-color="#00f700"
+              />
+            </ClientOnly>
           </div>
         </template>
       </div>
@@ -113,14 +122,16 @@ export default {
   name: 'ResumeComponent',
   data() {
     return {
-      resumeData: ResumeData.default
+      resumeData: ResumeData.default,
+      progressComponent: null
     }
   },
 
   mounted() {
-    import('vue-multiple-progress').then(Progress => {
-      this.Progress = module.default;
-    })
+    import('vue-multiple-progress')
+      .then(module => {
+        this.progressComponent = module.default;
+      })
   }
 }
 </script>
