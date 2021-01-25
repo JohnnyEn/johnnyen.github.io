@@ -1,11 +1,13 @@
 <template>
   <div class="resume">
-    <image-component
-      imageUrl="https://drive.google.com/uc?export=download&id=1s4UFQotBl8tXuYQPbauWrIn-eR-nxyuw"
-      backgroundImageUrl="https://i.pinimg.com/originals/19/d2/94/19d294b86b157c57856ecd786461b8d2.jpg"
-      imageHeight="300"
-      imageHeadline="CV-hero-image"
-    />
+    <client-only>
+      <image-component
+        imageUrl="https://drive.google.com/uc?export=download&id=1s4UFQotBl8tXuYQPbauWrIn-eR-nxyuw"
+        backgroundImageUrl="https://i.pinimg.com/originals/19/d2/94/19d294b86b157c57856ecd786461b8d2.jpg"
+        imageHeight="300"
+        imageHeadline="CV-hero-image"
+      />
+    </client-only>
 
     <div class="row">
       <h1>Jan Novák</h1>
@@ -13,12 +15,6 @@
 
       <div class="col-md-8">
         <h3 class="resume-headline"># Pracovní zkušenosti</h3>
-
-        <template
-          v-for="jobs in resumeData.resumeJobs"
-        >
-
-        </template>
 
         <ul class="resume-list">
           <li
@@ -111,19 +107,20 @@
 </template>
 
 <script>
-import Progress from 'vue-multiple-progress';
 import * as ResumeData from '../static/cv-data.json';
 
 export default {
   name: 'ResumeComponent',
-  components: {
-    Progress
-  },
-
   data() {
     return {
       resumeData: ResumeData.default
     }
+  },
+
+  mounted() {
+    import('vue-multiple-progress').then(Progress => {
+      this.Progress = module.default;
+    })
   }
 }
 </script>
