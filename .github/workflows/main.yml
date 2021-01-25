@@ -29,4 +29,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Deploy to GH Pages
-        run: git config user.name "Johnny" && git config user.email "johnny@johnny.com" && ./deploy.sh
+        run: ./deploy.sh

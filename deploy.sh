@@ -16,6 +16,8 @@ cd docs/.vuepress/dist
 # echo 'www.example.com' > CNAME
 
 git init
+git config --global user.email "johnny@johnny.com"
+git config --global user.name "Johnny"
 git add -A
 git commit -m 'deploy'
 
