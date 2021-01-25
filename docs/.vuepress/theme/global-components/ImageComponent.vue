@@ -39,8 +39,7 @@ export default {
     },
     imageHeadline: {
       type: String,
-      required: true,
-      default: ''
+      required: false
     },
     imageText: {
       type: String,
@@ -49,8 +48,7 @@ export default {
     },
     backgroundImageUrl: {
       type: String,
-      required: false,
-      default: ''
+      required: false
     },
     imageHeight: {
       type: String,

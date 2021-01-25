@@ -44,6 +44,7 @@ export default {
   position: relative;
   width: 100%;
   height: 300px;
+  margin-bottom: 15px;
   overflow: hidden;
   cursor: pointer;
 

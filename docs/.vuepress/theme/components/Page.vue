@@ -1,13 +1,6 @@
 <template>
   <main class="page">
     <slot name="top" />
-      <client-only>
-        <image-component
-          :imageUrl="$frontmatter.image"
-          imageHeight="300"
-        />
-      </client-only>
-
     <Content
       class="theme-default-content"
       :class="classObject"
@@ -50,6 +43,10 @@ export default {
       return {
         'custom': this.pageType === 'custom'
       }
+    },
+
+    backgroundImage() {
+      return typeof this.$frontmatter.imageBackground !== 'undefined' ? this.$frontmatter.imageBackground : null;
     }
   }
 }
