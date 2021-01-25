@@ -1,5 +1,5 @@
 <template>
-  <div class="post-list">
+  <div class="post-list row">
     <template
       v-for="(postListItem, index) in articlesList"
     >
