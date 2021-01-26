@@ -18,7 +18,7 @@ module.exports = {
     hideLogo: false,
   },
   title: 'CBRPNK.dev',
-  base: '/cbrpnk.dev/',
+  base: '/',
   markdown: {
     lineNumbers: true
   }
