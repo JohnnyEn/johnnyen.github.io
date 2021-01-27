@@ -100,6 +100,7 @@ div[class*="language-"] {
     pre {
       padding-left: $lineNumbersWrapperWidth + 1 rem;
       vertical-align: middle;
+      margin-left: 56px;
     }
 
     .line-numbers-wrapper {
