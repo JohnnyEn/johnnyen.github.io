@@ -13,7 +13,7 @@ image: https://drive.google.com/uc?export=download&id=1DX2PhY7tn0qB8C5Kh4aWzrC9E
 
 # Jak se nezbláznit z velkého množství práce
 
-Takovouhle otázku jsem si nedávno pokládal, když jsem se díval do svého diáře a shledal, že mám práce víc než dost. Kromě svého každodenního zaměstnání (které samozřejmě vykonávám na 100%) postupně přidávám další aktivity, protože díky době lockdownové mám výrazně víc času. Hospody jsou zavřené a venkovní teploty pod nulou mi moc nesvědčí.
+Takovou otázku jsem si nedávno pokládal, když jsem se díval do svého diáře a shledal, že mám práce víc než dost. Kromě svého každodenního zaměstnání (které samozřejmě vykonávám na 100%) postupně přidávám další aktivity, protože díky době lockdownové mám výrazně víc času. Hospody jsou zavřené a venkovní teploty pod nulou mi moc nesvědčí.
 
 A proto se stalo, že jsem si navrhnul svůj projekt snů do kterého jsem se vrhnul po hlavě a sešlo se to s jiným projektem undergroundového hudebního hubu. Mám tedy na krku kromě standardního zaměstnání ještě i dva hobby projekty, které jsou poměrně rozsáhlé a samozřejmě velice časově náročné.
 
