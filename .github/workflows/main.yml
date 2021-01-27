@@ -30,5 +30,4 @@ jobs:
           ACCESS_TOKEN_DEPLOY: ${{secrets.ACCESS_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./docs/.vuepress/dist
-          CNAME: cbrpnk.dev
         uses: veaba/vuepress-actions@v0.83 
